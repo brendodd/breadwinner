@@ -15,6 +15,11 @@ body {
   height: 100vh; /* 100% viewport height to fit the screen */
 }
 
+body, html {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -42,16 +47,16 @@ img {
 .pages {
   text-decoration: none;
   color: #1D1C1A;
-  transition: color 0.1s ease-in-out;
+  transition: color 0.3s ease-in-out;
   display: block;
   text-decoration: none;
   color: inherit;
   height: 30px;
   border-radius: 20px;
-  line-height: 25px;
+  line-height: 30px;
   padding: 0 10px;
   border: 1px solid transparent;
-  transition: border-color .15s ease;
+  transition: border-color .3s ease;
 }
 
 .pages a {
@@ -81,6 +86,7 @@ img {
   max-width: 100%;
   overflow: hidden;
   position: relative;
+  width: 100%;
 }
 
 .home-photo {
@@ -88,4 +94,22 @@ img {
   height: 100%;
   object-fit: cover; /* This maintains the image's aspect ratio */
   object-position: center; /* Adjusts the image positioning to show the lower half */
+  display: block;
+}
+
+.description {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.breadwinner {
+  position: absolute; /* Position the text absolutely within the container */
+  top: 50%; /* Adjust the top value to vertically center the text */
+  left: 50%; /* Adjust the left value to horizontally center the text */
+  transform: translate(-50%, -50%); /* Center the text both vertically and horizontally */
+  background-color: rgba(255, 255, 255, 0); /* Add a background color for better visibility */
+  padding: 10px 20px; /* Add padding to the text for better readability */
+  font-size: 140px; /* Adjust the font size as needed */
+  color: #E7D9C3;
 }
