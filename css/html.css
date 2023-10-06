@@ -29,13 +29,18 @@ h1 {
   font-family: 'Koulen', cursive;
 }
 
+p {
+  font-family: 'News Cycle', sans-serif;
+  font-size: 1.5rem;
+}
+
 /* ======== //
 //  Navbar  //
 // ======== */
 
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around; /* Aligns items to the center */
   align-items: center; /* Aligns items to the top */
   position: sticky; /* Makes the navbar sticky */
   top: 0; /* Aligns the navbar to the top of the viewport */
@@ -57,7 +62,7 @@ h1 {
   color: inherit;
   height: 30px;
   border-radius: 20px;
-  line-height: 30px;
+  line-height: 25px;
   padding: 0 10px;
   border: 1px solid transparent;
   transition: border-color .3s ease;
@@ -80,6 +85,7 @@ h1 {
 .logo {
   width: 125px;
   height: 125px;
+  border-radius: 5px;
 }
 
 /* ======== //
