@@ -42,6 +42,8 @@ p {
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
   height: 70vh; /* Make the container take the full viewport height */
+  padding: 9rem;
+  width: 100%;
 }
 
 /* ======== //
@@ -193,8 +195,20 @@ p {
 }
 
 /* =========== //
-//   footer   //
+//   contact   //
 // =========== */
+
+.contact-padding {
+  padding: 2rem;
+}
+
+.email {
+  font-size: 3.5rem;
+}
+
+/* ========== //
+//   footer   //
+// ========== */
 
 .footer {
   font-size: 1rem;
