@@ -12,7 +12,10 @@
 body {
   display: flex;
   flex-direction: column; /* Stack items vertically */
-  height: 100vh; /* 100% viewport height to fit the screen */
+  padding: 0;
+  flex-wrap: wrap;
+  text-align: center;
+  overflow-x: hidden;
 }
 
 body, html {
@@ -27,11 +30,18 @@ img {
 
 h1 {
   font-family: 'Koulen', cursive;
+  font-size: 60px;
 }
 
 p {
   font-family: 'News Cycle', sans-serif;
-  font-size: 1.5rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 70vh; /* Make the container take the full viewport height */
 }
 
 /* ======== //
@@ -46,7 +56,7 @@ p {
   top: 0; /* Aligns the navbar to the top of the viewport */
   z-index: 1000; /* Ensures that it appears above other content */
   background-color: #E7D9C3; /* You might want to set a background color to ensure text readability */
-  height: 20rem;  /* Adjust to fit your design */
+  height: 10rem;  /* Adjust to fit your design */
   max-height: 18.75rem; /* Should be the same as height */
   width: 100%;
   padding: 0;
@@ -101,7 +111,15 @@ p {
 
 .home-photo {
   width: 100%;
-  height: 100%;
+  height: 650px;
+  object-fit: cover; /* This maintains the image's aspect ratio */
+  object-position: center; /* Adjusts the image positioning to show the lower half */
+  display: block;
+}
+
+.home-photo-bagels {
+  width: 100%;
+  height: 377px;
   object-fit: cover; /* This maintains the image's aspect ratio */
   object-position: center; /* Adjusts the image positioning to show the lower half */
   display: block;
@@ -111,6 +129,18 @@ p {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 3rem;
+}
+
+.description-2 {
+  margin-left: 6rem;
+  margin-right: 6rem;
+  padding: 3rem;
+  font-size: 2rem;
+}
+
+.p {
+  font-size: 2rem;
 }
 
 .breadwinner {
@@ -122,4 +152,50 @@ p {
   padding: 10px 20px; /* Add padding to the text for better readability */
   font-size: 140px; /* Adjust the font size as needed */
   color: #E7D9C3;
+}
+
+.google-map {
+  .google-map {
+    padding-bottom: 50%;
+    position: relative;
+  }
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    border-radius: 0px;
+  }
+}
+
+.socials {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.socials p {
+  padding-top: 20px;
+  display: inline-block;
+}
+
+.socials a {
+  text-decoration: none;
+  color: #1D1C1A;
+  transition: color 0.1s ease-in-out;
+}
+
+.socials a:hover {
+  color: grey;
+}
+
+/* =========== //
+//   footer   //
+// =========== */
+
+.footer {
+  font-size: 1rem;
 }
