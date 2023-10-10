@@ -3,7 +3,6 @@
 // ============== */
 
 * {
-  background-color: #E7D9C3;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -17,6 +16,7 @@ body {
   text-align: center;
   overflow-x: hidden;
   min-height: 100vh;
+  background-color: #E7D9C3;
 }
 
 body, html {
@@ -70,20 +70,21 @@ p {
 .pages {
   text-decoration: none;
   color: #1D1C1A;
-  transition: color 0.3s ease-in-out;
   display: block;
-  text-decoration: none;
   color: inherit;
   height: 36px;
   border-radius: 25px;
   line-height: 30px;
   padding: 0 10px;
   border: 1.5px solid transparent;
-  transition: border-color .3s ease;
 }
 
-.navbar a:hover, .navbar a:focus, .navbar a.active{
+.navbar a:focus, .navbar a.active{
   border-color: #1D1C1A;
+}
+
+.navbar a:hover {
+  font-family: cursive;
 }
 
 .logo {
@@ -110,6 +111,7 @@ p {
   object-fit: cover; /* This maintains the image's aspect ratio */
   object-position: center; /* Adjusts the image positioning to show the lower half */
   display: block;
+  border-bottom: #1D1C1A 2px solid;
 }
 
 .home-photo-bagels {
@@ -118,6 +120,8 @@ p {
   object-fit: cover; /* This maintains the image's aspect ratio */
   object-position: center; /* Adjusts the image positioning to show the lower half */
   display: block;
+  border-bottom: #1D1C1A 2px solid;
+  border-top: #1D1C1A 2px solid;
 }
 
 .description {
@@ -127,11 +131,25 @@ p {
   padding: 3rem;
 }
 
+.location {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem;
+  background-color: #1D1C1A;
+}
+
 .description-2 {
   margin-left: 6rem;
   margin-right: 6rem;
   padding: 3rem;
   font-size: 2rem;
+}
+
+.p-location {
+  font-size: 2rem;
+  background-color: #1D1C1A;
+  color: #E7D9C3;
 }
 
 .p {
