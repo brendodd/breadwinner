@@ -81,13 +81,8 @@ p {
   border: 1.5px solid transparent;
 }
 
-.navbar a:focus, .navbar a.active{
+.navbar a:focus, .navbar a:hover, .navbar a.active{
   border-color: #1D1C1A;
-}
-
-.navbar a:hover {
-  font-family: cursive;
-  transition: color 0.1s ease-in-out;
 }
 
 .logo {
