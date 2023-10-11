@@ -285,3 +285,29 @@ p {
 .footer a:hover {
   font-family: cursive;
 }
+
+/* ======== //
+//   menu   //
+// ======== */
+
+.menu-options {
+  display: inline-flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-container > img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.image-container {
+  padding: 1rem;
+}
+
+.menu-options-scrollable {
+  padding-top: 12rem;
+}
