@@ -311,3 +311,10 @@ p {
 .menu-options-scrollable {
   padding-top: 12rem;
 }
+
+.bagel-menu {
+  text-align: left;
+  padding-left: 1rem;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
