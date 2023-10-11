@@ -64,7 +64,7 @@ p {
   width: 100%;
   padding: 0;
   box-sizing: border-box;
-  border-bottom: 2px solid #1D1C1A;
+  border-bottom: #1D1C1A 2px solid;
 }
 
 .pages {
@@ -111,7 +111,7 @@ p {
   object-fit: cover; /* This maintains the image's aspect ratio */
   object-position: center; /* Adjusts the image positioning to show the lower half */
   display: block;
-  border-bottom: #1D1C1A 2px solid;
+  border-bottom: 2px solid #1D1C1A;
 }
 
 .home-photo-bagels {
@@ -140,10 +140,10 @@ p {
 }
 
 .description-2 {
-  margin-left: 6rem;
-  margin-right: 6rem;
   padding: 3rem;
   font-size: 2rem;
+  margin: 0 auto;
+  max-width: 1300px;
 }
 
 .p-location {
