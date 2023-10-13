@@ -345,6 +345,15 @@ p {
   padding-bottom: 2rem;
 }
 
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+  padding-bottom: 2rem;
+  padding-top: 20rem;
+}
+
 /* ========== //
 //   mobile   //
 // ========== */
