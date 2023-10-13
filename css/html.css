@@ -371,4 +371,16 @@ p {
   .location-styling {
     width: 100vh;
   }
+
+  .bagel-options-scrollable {
+    width: 100vh;
+  }
+
+  .mobile {
+    width: 100vh;
+  }
+
+  .mobile > p {
+    width: 100vh;
+  }
 }
