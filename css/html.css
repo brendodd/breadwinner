@@ -55,9 +55,15 @@ p {
   top: 0; /* Aligns the navbar to the top of the viewport */
   z-index: 1000; /* Ensures that it appears above other content */
   background-color: #E7D9C3; /* You might want to set a background color to ensure text readability */
-  height: 10rem;  /* Adjust to fit your design */
+  height: 8rem;
   border-bottom: #1D1C1A 2px solid;
   font-size: 2rem;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
 }
 
 .navbar-info {
@@ -85,12 +91,6 @@ p {
   border-color: #1D1C1A;
 }
 
-.logo {
-  width: 125px;
-  height: 125px;
-  border-radius: 5px;
-}
-
 /* ======== //
 //   Body   //
 // ======== */
@@ -108,13 +108,39 @@ p {
 }
 
 .home-photo-bagels {
-  width: 100%;
+  width: 100vw;
   height: 377px;
-  object-fit: cover; /* This maintains the image's aspect ratio */
-  object-position: center; /* Adjusts the image positioning to show the lower half */
-  display: block;
+  background-image: url(/documents/bagels.png);
+  background-size: cover; /* This maintains the image's aspect ratio */
+  background-position-y: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-bottom: #1D1C1A 2px solid;
   border-top: #1D1C1A 2px solid;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 17rem;
+  height: 6rem;
+  border-radius: 25px;
+  background-color: #E7D9C3;
+  border: 1.5px solid #1D1C1A;
+  color: #1D1C1A;
+  text-decoration: none;
+}
+
+.button a {
+  text-decoration: none;
+  color: #1D1C1A;
+  transition: color 0.3s ease-in-out;
+}
+
+.button a:hover {
+  color: #1d1c1a78;
 }
 
 .description {
@@ -123,7 +149,7 @@ p {
   align-items: center;
   max-width: 1200px;
   width: 100%;
-  padding: 3rem;
+  padding: 8rem 3rem;
 }
 
 .description-styling {
@@ -155,7 +181,7 @@ p {
 }
 
 .description-2 {
-  padding: 3rem;
+  padding: 8rem 3rem;
   font-size: 2rem;
   margin: 0 auto;
   max-width: 1200px;
@@ -182,13 +208,12 @@ p {
     position: relative;
   }
 
-.google-map iframe {
+  .google-map iframe {
     height: 100%;
     width: 100%;
     left: 0;
     top: 0;
     position: absolute;
-    border-radius: 0px;
   }
 }
 
