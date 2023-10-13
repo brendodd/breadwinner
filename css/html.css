@@ -19,7 +19,7 @@ html {
 }
 
 body, html {
-  max-width: 100%;
+  width: 100%;
 }
 
 img {
@@ -352,6 +352,23 @@ p {
   }
 
   .home-content {
+    width: 100vh;
+    height: 50vh;
+  }
+
+  .description-styling {
+    width: 100vh;
+  }
+
+  .home-photo-bagels {
+    width: 100vh;
+  }
+
+  .description-2 {
+    width: 100vh;
+  }
+
+  .location-styling {
     width: 100vh;
   }
 }
