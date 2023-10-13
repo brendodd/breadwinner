@@ -9,7 +9,7 @@
 }
 
 body {
-  width: 100vw;
+  width: 100%;
   height: 100%;
   background-color: #E7D9C3;
 }
@@ -48,10 +48,11 @@ p {
 // ======== */
 
 .navbar {
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: space-around; /* Aligns items to the center */
   position: fixed; /* Makes the navbar sticky */
+  align-items: center;
   top: 0; /* Aligns the navbar to the top of the viewport */
   z-index: 1000; /* Ensures that it appears above other content */
   background-color: #E7D9C3; /* You might want to set a background color to ensure text readability */
@@ -96,7 +97,7 @@ p {
 // ======== */
 
 .home-content {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background-image: url(/documents/breadwinner\ background.jpeg);
   background-size: cover;
@@ -108,7 +109,7 @@ p {
 }
 
 .home-photo-bagels {
-  width: 100vw;
+  width: 100%;
   height: 377px;
   background-image: url(/documents/bagels.png);
   background-size: cover; /* This maintains the image's aspect ratio */
@@ -339,4 +340,18 @@ p {
   padding-left: 1rem;
   font-size: 2rem;
   padding-bottom: 2rem;
+}
+
+/* ========== //
+//   mobile   //
+// ========== */
+
+@media (max-width: 768px) {
+  .breadwinner {
+    font-size: 100px;
+  }
+
+  .home-content {
+    width: 100vh;
+  }
 }
