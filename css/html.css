@@ -411,5 +411,6 @@ p {
   .menu {
     display: grid;
     justify-items: center;
+    padding-top: 10rem;
   }
 }
