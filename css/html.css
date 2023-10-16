@@ -357,6 +357,16 @@ p {
   padding-top: 20rem;
 }
 
+.bagel-description {
+  display: flex;
+  flex-direction: column;
+  padding-right: 1rem;
+}
+
+.bagel-font {
+  font-size: 3rem;
+}
+
 /* ========== //
 //   mobile   //
 // ========== */
@@ -412,5 +422,13 @@ p {
     display: grid;
     justify-items: center;
     padding-top: 10rem;
+  }
+
+  .bagel-description {
+    padding: 0;
+  }
+
+  .bagel-font {
+    font-size: 2rem;
   }
 }
