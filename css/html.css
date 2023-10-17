@@ -60,7 +60,7 @@ p {
 
 @media (prefers-reduced-motion: no-preference) {
   .in-view {
-    animation: fade 1s .5s both;
+    animation: fade 1.5s;
   }
 }
 
@@ -407,13 +407,21 @@ p {
   height: 600px;
   object-fit: cover;
   border-radius: 5px;
+  flex: 1;
 }
 
 .about-breadwinner {
   display: flex;
   padding-top: 10rem;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+}
+
+.about-text {
+  flex: 1;
+  display: flex;
+  padding-right: 1rem;
+  font-size: 2rem;
 }
 
 /* ========== //
