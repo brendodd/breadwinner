@@ -448,6 +448,10 @@ p {
     font-size: .8rem;
   }
 
+  .navbar-info {
+    padding-right: 0;
+  }
+
   .logo {
     width: 35px;
     height: 35px;
