@@ -419,8 +419,17 @@ p {
 .about-text {
   flex: 1;
   display: flex;
-  padding-right: 1rem;
+  padding-right: 2rem;
   font-size: 2rem;
+}
+
+.about-text-1 {
+  flex: 1;
+  display: flex;
+  padding-left: 2rem;
+  font-size: 2rem;
+  justify-content: flex-end;
+  text-align: right;
 }
 
 /* ========== //
