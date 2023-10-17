@@ -416,6 +416,13 @@ p {
   align-items: center;
 }
 
+.about-breadwinner-1 {
+  display: flex;
+  padding-top: 10rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .about-text {
   flex: 1;
   display: flex;
@@ -525,6 +532,14 @@ p {
   }
 
   .about-breadwinner {
+    display: flex;
+    padding-top: 5rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+
+  .about-breadwinner-1 {
     display: flex;
     padding-top: 5rem;
     justify-content: space-between;
