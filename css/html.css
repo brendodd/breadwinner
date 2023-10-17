@@ -60,7 +60,7 @@ p {
 
 @media (prefers-reduced-motion: no-preference) {
   .in-view {
-    animation: fade 1.5s;
+    animation: fade 2s;
   }
 }
 
