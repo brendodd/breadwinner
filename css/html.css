@@ -353,6 +353,11 @@ p {
   height: 350px;
   object-fit: cover;
   border-radius: 5px;
+  transition: transform 0.3s;
+}
+
+.image-container > img:hover {
+  transform: translateY(-10px);
 }
 
 .menu-image > img {
