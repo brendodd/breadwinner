@@ -428,9 +428,11 @@ p {
   }
 
   .menu {
-    display: grid;
+    display: flex;
     justify-items: center;
-    padding-top: 10rem;
+    padding-top: 5rem;
+    flex-direction: column;
+    align-items: center;
   }
 
   .bagel-description {
@@ -442,4 +444,15 @@ p {
   .bagel-font {
     font-size: 2rem;
   }
+
+  .menu-image > img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  .menu-options-scrollable {
+    padding-top: 8rem;
+}
 }
