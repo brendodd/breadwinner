@@ -415,6 +415,7 @@ p {
   height: 100vh;
   object-fit: cover;
   padding-top: 6rem;
+  border-right: #1D1C1A 2px solid;
 }
 
 .bagel-menu {
@@ -429,7 +430,6 @@ p {
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: row;
-  overflow-y: hidden;
 }
 
 .bagel-description {
