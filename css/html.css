@@ -341,11 +341,20 @@ p {
 //   menu   //
 // ======== */
 
+.menu-options-scrollable {
+  padding-top: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
 .menu-options {
   display: inline-flex;
   text-align: center;
   flex-wrap: wrap;
   justify-content: center;
+  max-width: 1200px;
 }
 
 .image-container {
@@ -360,6 +369,7 @@ p {
   object-fit: cover;
   border-radius: 5px;
   transition: transform 0.3s;
+  box-shadow: 0px 0px 17px -2px rgba(0, 0, 0, .25);
 }
 
 .image-text {
@@ -367,7 +377,7 @@ p {
   top: 49.5%; /* Adjust the vertical position */
   left: 50%; /* Adjust the horizontal position */
   transform: translate(-50%, -50%); /* Center the text both horizontally and vertically */
-  font-size: 35px; /* Adjust the font size */
+  font-size: 37px; /* Adjust the font size */
   color: #E7D9C3;
   width: 350px;
   height: 350px;
@@ -404,11 +414,7 @@ p {
   width: 50vw;
   height: 100vh;
   object-fit: cover;
-  padding-top: 8rem;
-}
-
-.menu-options-scrollable {
-  padding-top: 12rem;
+  padding-top: 6rem;
 }
 
 .bagel-menu {
