@@ -481,6 +481,15 @@ p {
   font-size: 2rem;
 }
 
+.about-hours {
+  flex: 1;
+  display: flex;
+  padding-right: 2rem;
+  font-size: 2rem;
+  align-items: center;
+  flex-direction: column;
+}
+
 .about-text-1 {
   flex: 1;
   display: flex;
