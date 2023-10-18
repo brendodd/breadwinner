@@ -70,7 +70,7 @@ p {
 
 .navbar {
   width: 100vw;
-  height: 8rem;
+  height: 6rem;
   position: fixed;
   top: 0;
   left: 0;
@@ -80,7 +80,7 @@ p {
   z-index: 1000;
   background-color: #E7D9C3;
   border-bottom: #1D1C1A 2px solid;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .navbar-info {
@@ -94,8 +94,8 @@ p {
 }
 
 .logo {
-  width: 100px;
-  height: 100px;
+  width: 85px;
+  height: 85px;
   border-radius: 5px;
   display: flex;
 }
