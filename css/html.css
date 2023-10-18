@@ -568,6 +568,7 @@ p {
     object-fit: cover;
     border-radius: 5px;
     padding-top: 0;
+    border-right: none;
   }
 
   .menu-options-scrollable {
@@ -603,5 +604,9 @@ p {
 
   .about-text-1 {
     padding: 2rem 0;
+  }
+
+  .hidden {
+    overflow: scroll;
   }
 }
