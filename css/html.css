@@ -356,7 +356,11 @@ p {
 .social a {
   text-decoration: none;
   color: #E7D9C3;
-  transition: color 0.1s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+.social a:hover {
+  color: grey;
 }
 
 .all-rights-reserved a {
@@ -380,8 +384,16 @@ p {
 //   menu   //
 // ======== */
 
+.menu-h1 {
+  padding-top: 9rem;
+  text-align: center;
+  font-size: 4rem;
+  letter-spacing: 5px;
+  color: #1D1C1A;
+}
+
 .menu-options-scrollable {
-  padding-top: 12rem;
+  padding-top: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
