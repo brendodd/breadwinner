@@ -453,7 +453,7 @@ p {
   top: 49.5%; /* Adjust the vertical position */
   left: 50%; /* Adjust the horizontal position */
   transform: translate(-50%, -50%); /* Center the text both horizontally and vertically */
-  font-size: 37px; /* Adjust the font size */
+  font-size: 1.2rem; /* Adjust the font size */
   color: #E7D9C3;
   width: 250px;
   height: 250px;
