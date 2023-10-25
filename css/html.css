@@ -170,16 +170,15 @@ p {
 }
 
 .about-home {
-  flex: 1;
   display: flex;
-  padding-right: 2rem;
-  font-size: 2rem;
+  padding-right: 1rem;
   flex-direction: column;
   align-items: flex-start;
+  padding-bottom: 2rem;
 }
 
 .h1-story {
-  padding-bottom: 11rem;
+  padding-bottom: 1rem;
   line-height: 2.5rem;
 }
 
@@ -198,9 +197,6 @@ p {
 }
 
 .description {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   max-width: 1200px;
   width: 100%;
 }
@@ -434,7 +430,7 @@ p {
 }
 
 .image-container {
-  padding: 1rem;
+  padding: 2rem;
   position: relative;
   display: inline-block;
 }
@@ -496,7 +492,7 @@ p {
 
 .bagel-menu {
   text-align: left;
-  padding-left: 1rem;
+  padding-left: 2rem;
   font-size: 1.2rem;
   padding-bottom: 2rem;
 }
